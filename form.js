@@ -1,6 +1,5 @@
-
 function salir() {
-    alert("Saliendo del formulario");
+    window.location.href ="Interfaz1.html";
 }
 
 document.getElementById('registro-form').addEventListener('submit', function (event) {
@@ -30,4 +29,7 @@ function mostrarAlerta(mensaje) {
         alerta.remove();
     }, 3000);
 }
+
+
+
 

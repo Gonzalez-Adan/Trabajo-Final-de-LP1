@@ -8,7 +8,7 @@ body {
 .primary{
     color: black;
   border: 2px solid rgb(15, 29, 228);
-  border-radius: 0px;
+  border-radius: 25px;
   padding: 18px 36px;
   display: inline-block;
   font-family: "Lucida Console", Monaco, monospace;
@@ -19,6 +19,9 @@ body {
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
+  top: 91%;
+  position: absolute;
+  left: 10px;
 }
 
 .primary {background-color: white; border: 2px solid #007bff;} 
@@ -30,7 +33,7 @@ body {
 .secundary {
     color: black;
   border: 2px solid rgb(15, 29, 228);
-  border-radius: 0px;
+  border-radius: 25px;
   padding: 18px 36px;
   display: inline-block;
   font-family: "Lucida Console", Monaco, monospace;
@@ -41,6 +44,10 @@ body {
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
+  top: 91%;
+  position: absolute;
+  
+  
 }
 .secundary{background-color: white; border: 2px solid #007bff;}
 .secundary:hover {box-shadow: inset 400px 50px 0 0 blue;
@@ -50,7 +57,7 @@ body {
 .third {
     color: black;
     border: 2px solid rgb(15, 29, 228);
-    border-radius: 0px;
+    border-radius: 25px;
     padding: 18px 36px;
     display: inline-block;
     font-family: "Lucida Console", Monaco, monospace;
@@ -61,7 +68,15 @@ body {
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;   
+    top: 91%;
+    right: 10px;
+    position: absolute;
 }
 .third{background-color: white; border: 2px solid #007bff;}
 .third:hover {box-shadow: inset 400px 50px 0 0 blue;
     background: #0b7dda; color: white;}
+
+.contenedor{
+    text-align: center;
+}
+
