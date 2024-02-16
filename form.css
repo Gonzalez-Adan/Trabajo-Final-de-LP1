@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(147, 145, 145, 0.788);
+    background: url("./fondo-formulario.jpg");
+    background-size: cover;
+}   
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los campos y etiquetas */
+label, input,select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para la alerta emergente */
+.alerta {
+    display: none;
+    background-color: #ffcccb;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title> formulario </title>
+</head>
+<body>
+    <!--form Define el formulario y agrupa los elementos dentro de él.-->
+    <form id="myForm">
+        <h2> Registro:</h2>
+        <!--label es la etiqueta para describir cada campo-->
+        <label for="nombre">Nombre:</label>
+        <!--campo de entrada-->
+        <input type="text" id="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" required>
+
+        <label for="genero">Genero:</label>
+        <select id="genero">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option></select>
+
+            <button type="submit" onclick="registrarUsuario()">Crear</button>
+            <button type="button" onclick="salir()">Salir</button>
+    </form>
+
+    <script src="./form.js"></script>
+</body>
+</html>
