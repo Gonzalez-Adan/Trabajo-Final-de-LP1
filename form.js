@@ -29,6 +29,9 @@ function mostrarAlerta(mensaje) {
         alerta.remove();
     }, 3000);
 }
+function Volver () {
+    window.location.href = "Interfaz1.html";
+}
 
 
 
