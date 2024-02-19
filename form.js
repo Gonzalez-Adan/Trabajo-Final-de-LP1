@@ -2,7 +2,7 @@ function salir() {
     window.location.href ="Interfaz1.html";
 }
 
-document.getElementById('registro-form').addEventListener('submit', function (event) {
+document.getElementById('myForm').addEventListener('submit', function (event) {
     event.preventDefault(); 
     // Evita que se envíe el formulario
 
@@ -17,6 +17,22 @@ document.getElementById('registro-form').addEventListener('submit', function (ev
         // Aquí puedes enviar los datos del formulario al servidor o realizar otras acciones
         console.log('Datos enviados:', nombre, email, contrasena, genero);
     }
+
+    let guardarDatosUsuario = {
+        nombre : nombre,
+        email : email,
+        contrasena : contrasena,
+        genero : genero
+    };
+
+    let jsonData = JSON.stringify(guardarDatosUsuario);
+
+    localStorage.setItem("guardarDatosUsuario", jsonData);
+
+    document.getElementById("myForm").reset();
+
+    alert("Datos guardados correctamente en el localStorage");
+    alert("¡Gracias por usar nuestro formulario!");
 });
 
 function mostrarAlerta(mensaje) {
