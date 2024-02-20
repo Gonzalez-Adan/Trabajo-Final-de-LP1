@@ -47,7 +47,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     alert("Datos guardados correctamente en el localStorage");
     alert("¡Gracias por usar nuestro formulario!");
 
-    location.replace('./Interfaz1.html');
+    location.replace('./extra.html');
     //location.href = './Interfaz1.html';
 
 });
