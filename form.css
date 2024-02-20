@@ -34,7 +34,7 @@ button {
 }
 
 /* Estilos para la alerta emergente */
-.alerta {
+ .alerta {
     display: none;
     background-color: #ffcccb;
     color: #d8000c;

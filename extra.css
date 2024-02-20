@@ -1,0 +1,12 @@
+.Contenedor{
+    text-align: center;
+    
+}
+
+.primer{
+    background-image: url("./Personaje1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px;
+    border-radius: 35px;
+}
