@@ -56,4 +56,11 @@ function Volver () {
     location.replace("Interfaz1.html");
 }
 
+function personaje1 () {
+    alert("Personaje seleccionado");
+}
+
+function personaje2 () {
+    alert("Personaje seleccionado");
+}
 

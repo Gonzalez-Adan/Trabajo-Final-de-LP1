@@ -17,4 +17,10 @@ body{
     padding: 75px;
     border-radius: 35px;
 }
-
+.segundo{
+    background-image: url("./Personaje2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px;
+    border-radius: 35px;
+}
