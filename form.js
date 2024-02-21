@@ -95,3 +95,7 @@ function silenciar(){
 function silenciarmusic(){
     alert("Audio del juego silenciado")
 }
+
+function volverdos () {
+    location.replace("./Interfaz1.html");   
+}
