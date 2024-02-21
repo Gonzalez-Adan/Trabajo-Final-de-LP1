@@ -1,33 +1,28 @@
-.Ajustes {
-    background-color: aqua;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url("./fondo-formulario.jpg");
+    background-size: cover;
 }
 
-.button-mute-music {
-    background-color: #3498db;
-    color: #fff;
+.container {
+    text-align: center;
+    background-color: #f8f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(240, 237, 237, 0.1);
 }
 
-.button-mute-game {
-    background-color: #3498db;
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
     color: #fff;
-}
-
-.button-Exit {
-    background-color: #d22626;
-    color: #fff;
-}
-
-.button-mute-music {
-    background-color: #3498db;
-    color: #fff;
-}
-
-.button-mute-game {
-    background-color: #3498db;
-    color: #fff;
-}
-
-.button-Exit {
-    background-color: #d22626;
-    color: #fff;
+    cursor: pointer;
 }

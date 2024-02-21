@@ -56,11 +56,33 @@ function Volver () {
     location.replace("Interfaz1.html");
 }
 
-function personaje1 () {
-    alert("Personaje seleccionado");
+function personaje (seleccion) {
+    switch (seleccion) {
+        case 1: 
+        alert("Selecionaste un personaje");
+            break;
+        case 2:
+            alert("Seleccionaste un personaje");
+            break;
+        case 3:
+            alert("Seleccionaste un personaje");
+            break;
+        case 4:
+            alert("Seleccionaste un personaje");
+            break;
+        default:
+            break;
+    }
 }
 
-function personaje2 () {
-    alert("Personaje seleccionado");
+function regresar () {
+    location.replace("./Interfaz1.html");
 }
 
+
+function silenciar(){
+    alert("Juego silenciado");
+}
+function silenciarmusic(){
+    alert("Audio del juego silenciado")
+}
