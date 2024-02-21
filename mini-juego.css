@@ -1,0 +1,55 @@
+body{
+    background-image: url("./fondo-formulario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.controlador{
+    text-align: center;
+}
+
+.personaje1{
+    background-image: url("./Personaje1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px;
+    border-radius: 35px;
+}
+
+.personaje2{
+    background-image: url("./Personaje4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px;
+    border-radius: 35px;
+}
+
+.opcion1{
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color: white; 
+    border: 2px solid #04AA6D;
+}
+.opcion1:hover{
+    background-color: #46a049; 
+    color: white;
+}
+
+.salir-juego{
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color: white; 
+    border: 2px solid #04AA6D;
+}
+
+.salir-juego:hover{
+    background-color: #46a049; 
+    color: white;   
+}

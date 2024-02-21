@@ -75,8 +75,17 @@ function personaje (seleccion) {
     }
 }
 
-function regresar () {
-    location.replace("./Interfaz1.html");
+function regresar (agarrar) {
+    switch (agarrar) {
+        case 1:
+            location.replace("./Interfaz1.html");
+            break;
+        case 2:
+            location.replace("./mini-juego.html");
+            break;
+        default:
+            break;
+    }
 }
 
 
