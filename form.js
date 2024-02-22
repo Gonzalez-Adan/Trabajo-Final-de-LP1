@@ -1,17 +1,22 @@
+// Esta funcion controla el boton de salir del formulario.html
 function salir () {
     location.replace("./Interfaz1.html");
 }
 
+// Validando los datos del formulario.html
 document.getElementById('myForm').addEventListener('submit', function (event) {
     event.preventDefault(); 
     // Evita que se envíe el formulario
 
+    // Guardando los datos del formulario.html
     const nombre = document.getElementById('nombre').value;
     const email = document.getElementById('email').value;
     const contrasena = document.getElementById('contrasena').value;
     const genero = document.getElementById('genero').value;
 
 
+    // Asegurando que el usuario me ponga los datos correctos
+    // Utilizo el .trim() para eliminar los espacios en blanco
     if (!nombre.trim()) {
         alert("Favor de ingresar su nombre");
         return;
@@ -31,6 +36,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     }
 
 
+    // Guardando los datos del formulario en el localStorge
     let guardarDatosUsuario = {
         nombre : nombre,
         email : email,
@@ -38,6 +44,8 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
         genero : genero
     };
 
+
+    // Guardando como JSON los datos del formulario
     let jsonData = JSON.stringify(guardarDatosUsuario);
 
     localStorage.setItem("guardarDatosUsuario", jsonData);
@@ -52,10 +60,16 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
 
 });
 
+
+// Con esa funcion controlo el boton de volver de la interfaz3.html
+// La interfaz de tutorial
 function Volver () {
     location.replace("Interfaz1.html");
 }
 
+
+// Con esa funcion controlo los personajes de extra.html
+// Osea interfaz4
 function personaje (seleccion) {
     switch (seleccion) {
         case 1: 
@@ -75,6 +89,7 @@ function personaje (seleccion) {
     }
 }
 
+// Con esa funcion tambien controlo los botones de extra.html
 function regresar (agarrar) {
     switch (agarrar) {
         case 1:
@@ -88,7 +103,8 @@ function regresar (agarrar) {
     }
 }
 
-
+// Con la funcion de silenciar y silenciarmusic controlo
+// Los botones de la interfaz2.html
 function silenciar(){
     alert("Juego silenciado");
 }
@@ -96,6 +112,7 @@ function silenciarmusic(){
     alert("Audio del juego silenciado")
 }
 
+// Este tambien controlo el boton de volver de la interfaz2.html
 function volverdos () {
     location.replace("./Interfaz1.html");   
 }

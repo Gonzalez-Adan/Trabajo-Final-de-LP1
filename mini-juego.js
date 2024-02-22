@@ -1,3 +1,5 @@
+// Con esa funcion controlo el mini-juego.hmtl
+// Controlo los botones de las respuestas
 function opcion (seleccion) {
     switch (seleccion) {
         case 1:
@@ -41,6 +43,7 @@ function opcion (seleccion) {
     }
 }
 
+// Controlo el boton de regresar del mini-juego.html
 function regresar () {
     alert("Gracias por jugar al mini juego, vuelve cuando quieras");
     location.replace("./extra.html");
