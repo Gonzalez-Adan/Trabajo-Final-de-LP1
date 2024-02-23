@@ -116,3 +116,4 @@ function silenciarmusic(){
 function volverdos () {
     location.replace("./Interfaz1.html");   
 }
+

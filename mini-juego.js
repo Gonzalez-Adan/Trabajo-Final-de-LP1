@@ -44,7 +44,25 @@ function opcion (seleccion) {
 }
 
 // Controlo el boton de regresar del mini-juego.html
-function regresar () {
-    alert("Gracias por jugar al mini juego, vuelve cuando quieras");
+function regresar (items) {
+    switch (items) {
+        case 1:
+            alert("Gracias por jugar al mini juego, vuelve cuando quieras");
+            location.replace("./extra.html");
+            break;
+
+            // Aqui controlo el boton de creditos
+            // Para conectar el archivo de creditos.html
+        case 2:
+            location.replace("./creditos.html");
+        default:
+            break;
+    }
+
+}
+
+// Aqui controlo el boton de regresar del archivo creditos.html
+function regreso () {
     location.replace("./extra.html");
 }
+
